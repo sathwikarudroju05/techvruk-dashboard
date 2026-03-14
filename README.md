@@ -1,16 +1,40 @@
-# React + Vite
+# Simple Diagram Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based frontend dashboard built as part of a frontend assessment.
 
-Currently, two official plugins are available:
+## Features
+- Upload diagram image
+- Preview uploaded image
+- Show uploaded file name
+- Replace uploaded image
+- Zoom In / Zoom Out / Reset View
+- Components list sidebar using mock data
+- Highlight selected component
+- Responsive layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- Vite
+- CSS
+- React Hooks
 
-## React Compiler
+## Installation
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure 
 
-## Expanding the ESLint configuration
+src/
+- components/
+  - UploadBox.jsx
+  - DiagramViewer.jsx
+  - ComponentList.jsx
+- pages/
+  - Dashboard.jsx
+- services/
+  - api.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Notes
+This project uses mock API data for component listing.
