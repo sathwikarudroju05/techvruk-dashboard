@@ -2,7 +2,30 @@
 
 This project is a React-based frontend dashboard built as part of a frontend assessment.
 
-## Features
+---
+
+## 📂 Project Structure 
+
+```
+
+src/
+├── components/
+│   ├── UploadBox.jsx
+│   ├── DiagramViewer.jsx
+│   └── ComponentList.jsx
+├── pages/
+│   └── Dashboard.jsx
+├── services/
+│   └── api.js
+├── App.jsx
+├── main.jsx
+├── App.css
+└── index.css
+
+```
+---
+
+## 🔮 Features
 - Upload diagram image
 - Preview uploaded image
 - Show uploaded file name
@@ -12,29 +35,30 @@ This project is a React-based frontend dashboard built as part of a frontend ass
 - Highlight selected component
 - Responsive layout
 
-## Tech Stack
+---
+
+## 🛠️ Tech Stack
 - React
 - Vite
 - CSS
 - React Hooks
 
-## Installation
+---
+## ⚙️ Installation
+
 1. Clone the repository
-2. Run `npm install`
-3. Run `npm run dev`
+2. Run npm install
+3. Run npm run dev
 
-## Project Structure 
+---
 
-src/
-- components/
-  - UploadBox.jsx
-  - DiagramViewer.jsx
-  - ComponentList.jsx
-- pages/
-  - Dashboard.jsx
-- services/
-  - api.js
-
-
-## Notes
+## 📜 Notes
 This project uses mock API data for component listing.
+
+---
+
+## 👤 Author
+
+**R Sathwika**
+
+
